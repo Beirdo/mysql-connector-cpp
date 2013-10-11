@@ -1,0 +1,7 @@
+all:
+	cmake -D CMAKE_INSTALL_PREFIX=../..  .
+	make
+	make install
+
+clean:
+	make clean
